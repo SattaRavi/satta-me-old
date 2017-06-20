@@ -1,0 +1,22 @@
+# .travis.yml
+dist: trusty
+sudo: required
+
+# Clean and don't fail
+install:
+ - rm -rf public || exit 0
+ - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.23/hugo_0.23_Linux-64bit.deb
+ - sudo dpkg -i /tmp/hugo.deb
+
+# Build the website
+script:
+  - hugo --theme=minimat
+
+ # Deploy to GitHub pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master
