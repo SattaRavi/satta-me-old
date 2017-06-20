@@ -16,6 +16,9 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
+  fqdn: http://satta.me
+  email: sattaravi@gmail.com
+  name: SattaRavi
   local_dir: public
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
