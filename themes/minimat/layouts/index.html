@@ -1,8 +1,34 @@
 <html>
       <head>
-            <title>Satta</title>
+            <title> {{ .Title }}{{ if ne .Title .Site.Title }} - {{ .Site.Title }}{{ end }} | {{ .Site.Params.author }}</title>
+            
+            <!-- Google Fonts -->
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+            
+            <!-- CSS Reset -->
+            <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+            
+            <!-- Milligram CSS minified -->
+            <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+
+            <link rel="stylesheet" href="{{ .Site.BaseURL }}/main.css">
       </head>
       <body>
-            <h1>Satta Ravi</h1>
+
+            <nav class="navigation">
+                  <section class="container">
+                        <a class="navigation-title" href="/">
+                              <h1 class="title">Satta Ravi</h1>
+                        </a>
+                        
+                        <ul class="navigation-list float-right">
+                              <li class="navigation-item">
+                                    <a class="navigation-link">Blog</a>
+                                    <a class="navigation-link">About</a>
+                                    <a class="navigation-link">Tags</a>
+                              </li>
+                        </ul>
+                  </section>
+            </nav>
       </body>
 </html>
