@@ -16,6 +16,7 @@ install:
 
 # Build the website
 script:
+  - git clone https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
   - hugo -v
 
  # Deploy to GitHub pages
