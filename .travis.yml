@@ -2,6 +2,12 @@
 dist: trusty
 sudo: required
 
+git:
+  submodules: false
+
+before_install:
+  - git submodule update --init
+  
 # Clean and don't fail
 install:
  - rm -rf public || exit 0
