@@ -22,6 +22,8 @@ script:
  # Deploy to GitHub pages
 deploy:
   provider: pages
+  keep-history: true
+  verbose: true
   skip_cleanup: true
   fqdn: http://satta.me
   email: sattaravi@gmail.com
