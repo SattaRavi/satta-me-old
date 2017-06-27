@@ -1,6 +1,7 @@
 ---
 title: Colophon
 comments: false
+paging: false
 ---
 
 This website is written using [VSCode](https://code.visualstudio.com/) and compiled into HTML using [Hugo](https://gohugo.io/) - a static site generator written in [Go](https://golang.org/). The design is based on top of [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll ) adapted to [Beautiful Hugo](https://github.com/halogenica/beautifulhugo). [Bootstrap](http://getbootstrap.com/) and [JQuery](https://jquery.com/) are also used.

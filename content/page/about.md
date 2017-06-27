@@ -1,6 +1,7 @@
 ---
-title: 
+title: "" 
 comments: false
+paging: false
 ---
 
 # Hello, I’m Satta Ravi.
