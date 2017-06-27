@@ -11,7 +11,7 @@ body {
   height: 100vh;
 }
 .container[role=main] {
-  margin-bottom:50px;
+  margin-bottom:1em;
   flex: 1 0 auto;
 }
 p {
@@ -298,6 +298,10 @@ footer .condensed-links a{
       text-decoration: underline;
 }
 
+.stage{
+  padding: 1em 0;
+}
+
 @media only screen and (min-width: 768px) {
   footer .footer-links {
     font-size: 18px;
@@ -310,14 +314,14 @@ footer .condensed-links a{
 /* --- Post preview --- */
 
 .post-preview {
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  /*border-bottom: 1px solid #eee;*/
 }
 
 @media only screen and (min-width: 768px) {
-  .post-preview {
-    padding: 35px 0;
-  }
+  /*.post-preview {
+    padding: 15px 0;
+  }*/
 }
 
 .post-preview:last-child {
@@ -336,9 +340,22 @@ footer .condensed-links a{
 }
 
 .post-preview .post-title {
-  font-size: 30px;
-  margin-top: 0;
+  font-size: 1.8rem;
+  text-transform: capitalize;
 }
+
+.post-date{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.year-mark{
+  border-left: 5px solid #ff487a;
+  padding-left: 0.4em;
+  margin: 1em 0;
+}
+
 .post-preview .post-subtitle {
   margin: 0;
   font-weight: 300;
@@ -387,9 +404,9 @@ footer .condensed-links a{
 }
 
 @media only screen and (min-width: 768px) {
-  .post-preview .post-title {
+  /*.post-preview .post-title {
     font-size: 36px;
-  }
+  }*/
 }
 
 /* --- Tags --- */
@@ -610,7 +627,7 @@ footer .condensed-links a{
 }
 
 .pager {
-  margin: 10px 0 0;
+  margin: 1em 0 0;
 }
 
 .pager.blog-pager {
