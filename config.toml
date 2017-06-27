@@ -6,8 +6,7 @@ metaDataFormat = "yaml"
 #pygmentsUseClasses = true
 #pygmentCodeFences = true
 disqusShortname = "satta-me"
-#googleAnalytics = "XXX"
-disableHugoGeneratorInject = false
+googleAnalytics = "UA-101747393-1"
 
 [Params]
   subtitle = "Aspiring Data Scientist | Full Stack Engineer"

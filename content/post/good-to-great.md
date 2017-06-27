@@ -4,5 +4,3 @@ subtitle: ""
 tags: []
 title: good to great it
 ---
-
-This is cool
