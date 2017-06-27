@@ -10,8 +10,8 @@ disqusShortname = "satta-me"
 disableHugoGeneratorInject = false
 
 [Params]
-  subtitle = "aspiring data scientist | full stack engineer | geek dad"
-  logo = "img/avatar-icon.png"
+  subtitle = "Aspiring Data Scientist | Full Stack Engineer"
+  logo = "img/satta.jpg"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   rss = true
