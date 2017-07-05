@@ -634,6 +634,10 @@ footer .condensed-links a{
   margin-top: 0;
 }
 
+.box{
+  border: 1px solid #efefef;
+}
+
 @media only screen and (min-width: 768px) {
   .pager.blog-pager  {
     margin-top: 10px;
@@ -646,7 +650,7 @@ table {
   padding: 0;
 }
 table tr {
-  border-top: 1px solid #cccccc;
+  /*border-top: 1px solid #cccccc;*/
   background-color: #ffffff;
   margin: 0;
   padding: 0;
@@ -662,7 +666,7 @@ table tr th {
   padding: 6px 13px;
 }
 table tr td {
-  border: 1px solid #cccccc;
+  /*border: 1px solid #cccccc;*/
   text-align: left;
   margin: 0;
   padding: 6px 13px;

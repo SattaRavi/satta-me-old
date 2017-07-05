@@ -9,7 +9,7 @@ Helps create packages for deployment, can be used to create a deployment package
 
 the resulting zip can be exploded on to production and the delete script is run to clean up stale files.
 
-> gist
+{{< gist SattaRavi 66fed939e9c5b5fca3e8f0c910d201d0 >}}
 
 ### how does the script work ?
 
