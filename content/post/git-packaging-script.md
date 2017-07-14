@@ -1,8 +1,8 @@
 ---
 date: 2016-12-04T23:18:23-07:00
 paging: true
-title: git packaging script
-tags: ['git']
+title: GIT Packaging Script
+tags: ['git','shell']
 ---
 
 Helps create packages for deployment, can be used to create a deployment package for files changed between two [git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging) or two git Head revisions like HEAD³ and HEAD or between commit ids.

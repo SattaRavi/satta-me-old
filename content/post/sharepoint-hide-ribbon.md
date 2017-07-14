@@ -1,8 +1,8 @@
 ---
 date: 2016-11-20T23:16:17-07:00
 paging: true
-title: sharepoint hide ribbon
-tags: ['sharepoint']
+title: SharePoint hide Ribbon
+tags: ['sharepoint', 'spo']
 ---
 
 Came across a scenario where the SharePoint Ribbon needed to be hidden from users who were authenticated but only has **Read** permissions

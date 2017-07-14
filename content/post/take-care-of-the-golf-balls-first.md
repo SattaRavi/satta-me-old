@@ -1,7 +1,8 @@
 ---
 date: 2017-02-05T01:16:43-07:00
 paging: true
-title: Take care of the golf balls first.
+title: Care for the Golf balls.
+tags: ['other']
 ---
 
 > For a Happier Life — Set priorities and use time wisely
