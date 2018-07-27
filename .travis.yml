@@ -11,7 +11,7 @@ sudo: required
 # Clean and don't fail
 install:
  - rm -rf public || exit 0
- - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.23/hugo_0.23_Linux-64bit.deb
+ - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.45.1/hugo_0.45.1_Linux-64bit.deb
  - sudo dpkg -i /tmp/hugo.deb
 
 # Build the website
