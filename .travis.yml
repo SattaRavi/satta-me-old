@@ -25,7 +25,7 @@ deploy:
   keep-history: true
   verbose: true
   skip_cleanup: true
-  fqdn: http://satta.me
+  fqdn: https://satta.me
   email: sattaravi@gmail.com
   name: SattaRavi
   local_dir: public
