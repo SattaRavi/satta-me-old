@@ -1,4 +1,4 @@
-baseurl = "https://satta.me"
+baseurl = "http://satta.me"
 DefaultContentLanguage = "en"
 title = "Satta Ravi"
 theme = "beautifulhugo"
